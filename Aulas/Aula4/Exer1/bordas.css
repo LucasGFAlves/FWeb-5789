@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    text-align: center;
+    margin: 10px;
+}
+
+#quad1{
+    border-radius: 50%;
+}
+
+#quad2{
+    border-radius:10px;
+}
+
+#quad3{
+    border-radius:20px;
+}
+
+#quad4{
+    border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%
+}
+
+#quad4{
+    border-radius: 10% 50% 10% 50%/ 50% 10% 50% 10%
+}

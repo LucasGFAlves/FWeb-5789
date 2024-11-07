@@ -1,0 +1,38 @@
+.container{
+    width: 96%;
+}
+
+header figure{
+    text-align: center;
+}
+.imglogo{
+    width: 50%;
+    height: auto;
+}
+
+.menu-opcoes{
+    text-align: center;
+    position: static;
+}
+
+.menu-opcoes ul li{
+    display: inline-block;
+    margin: 5px;
+}
+
+.busca, .menu-conteudo{
+    margin-right: 0;
+    width: 100%;
+}
+
+.painel{
+    width: 100%;
+}
+
+.painel li{
+    width: 30%;
+}
+
+.painel img{
+    width: 100%;
+}

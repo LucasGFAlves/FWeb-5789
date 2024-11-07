@@ -1,0 +1,152 @@
+html, body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslateblue;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 20%;
+}
+.menu-opcoes ul{
+    font-size: 20px;
+}
+
+.imgexer{
+    width: 50%;
+    height: auto;
+}
+
+.menu-opcoes a{
+    color: #003366;
+}
+
+.menu-opcoes a:hover{
+    color:blueviolet;
+}
+
+.menu-opcoes a:active{
+    color: chartreuse;
+}
+
+main{
+    height: 65%;
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+}
+
+
+.menu-opcoes{
+    position: absolute; 
+    top:0px;
+    right:0px;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.imglogo{
+    width: 7%;
+    height: 7%;
+}
+
+.painel{
+    width: 47%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px gray;
+}
+
+.aula1{
+    float:left;
+    background-color: cornflowerblue;
+    background: linear-gradient(5deg, cornflowerblue,aquamarine);
+}
+
+.aula2{
+    float:right;
+    background-color: aquamarine;
+    background: linear-gradient(5deg, aquamarine,cornflowerblue);
+}
+
+.painel li{
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    margin: 2px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.painel li:hover{
+    box-shadow: 10px 10px 5px black;
+    transition: 0.7s;
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.2) rotate(-5deg);
+}
+
+.painel h2{
+    font-size: 20px;
+    text-shadow: 10px 5px 5px rgba(238, 159 , 86 , 0.8);
+}
+
+.painel a{
+    color: coral;
+    font-size: 15px;
+    text-align: center;
+}
+
+.social li a[href*=instagram]{
+    width: 50px;
+    height:50px;
+    background-image: url(../img/instagram.png);
+    text-indent: -9999px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.social li a[href*=github]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/github.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+
+.social {    
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+footer{
+    clear: both;
+    background-image: url(../img/fundoazul.png);
+    height: 15%;
+}
+
+.social li{
+    float:left;
+    margin-right: 20px;
+}
+
+.destaque img{
+    width: 30%;
+    height: 30%;
+}
+
+.destaque{
+    text-align: center;
+}

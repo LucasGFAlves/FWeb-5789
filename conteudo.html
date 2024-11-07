@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Conteúdo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/mobile.css" media="(max-width:720px)">
+    <link rel="stylesheet" href="./css/conteudo.css">
+</head>
+
+<body>
+    <header class="container">
+        <figure>
+            <img id="imglogo" src="./img/pc.jpg" alt="imagem do logo">
+        </figure>
+        <nav class="menu-opcoes">
+            <ul>
+                <li>
+                    <a href="./index.html">Página Principal</a>
+                </li>
+                <li>
+                    <a href="./contato.html">Contato</a>
+                </li>
+                <li>
+                    <a href="./conteudo.html">Conteúdo</a>
+                </li>
+                <li>
+                    <a href="./blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="destaques">
+            <div class="container destaque">
+                <section class="busca">
+                    <h2>Busca</h2>
+                    <form action="https://www.google.com.br/search" id="form-busca">
+                        <input type="search" name="ibusca" id="inputlupa">
+                        <input id="imglupa" type="image" src="./img/lupa.png" alt="imagem da lupa">
+                    </form>
+                </section>
+                <section class="menu-conteudo">
+                    <h2>Menu</h2>
+                    <nav>
+                        <!--lista ordenada de aulas-->
+                        <ul>
+                            <li>Aula 1
+                                <ul>
+                                    <li><a href="./Aulas/Aula1/Site1/exemplo1.html">Exemplo1</a></li>
+                                </ul>
+                            </li>
+                            <li>Aula 2
+                                <!-- lista nao ordenada de exercicios da aula2-->
+                                <ul>
+                                    <li>
+                                        <a href="./Aulas/Aula2/index.html">Exer1</a>
+                                    </li>
+                                    <li>
+                                        <a href="./Aulas/Aula2/index2.html">Exer2</a>
+                                    </li>
+                                    <li>
+                                        <a href="./Aulas/Aula2/index.3.html">Exerc3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+
+    <script src="./js/conteudo.js"></script>
+</body>
+
+</html>

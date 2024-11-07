@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+<body>
+    <h1>Pessoas: </h1>
+    <script>
+        var pessoas = [
+            {
+                "nome": "lucas",
+                "idade": 20,
+                "local":{
+                    "Pais": "Brasil",
+                    "UF": "RS",
+                    "Cidade": "Porto Alegre"
+                }
+            },
+            {
+                "nome":"Isabela",
+                "idade":20
+            }
+        ]
+
+        document.querySelector('h1').innerHTML = pessoas[1].nome + pessoas[1].idade;
+    </script>
+</body>
+</html>

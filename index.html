@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Principal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/mobile.css" media="(max-width:720px)">
+</head>
+<body>
+    <header class="container">
+        <figure>
+            <img class="imglogo" src="./img/pc.jpg" alt="imagem do logo">
+        </figure>
+        <nav class="menu-opcoes">
+            <ul>
+                <li>
+                    <a href="./index.html">Página Principal</a>
+                </li>
+                <li>
+                    <a href="./contato.html">Contato</a>
+                </li>
+                <li>
+                    <a href="./conteudo.html">Conteúdo</a>
+                </li>
+                <li>
+                    <a href="./blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="destaques">
+            <div class="container destaque">
+                <figure>
+                    <img src="./img/pc.jpg" alt="imagem do pc">
+                </figure>
+            </div>
+            <div class="container paineis">
+                <!--painel da aula1 -->
+                <section class="painel aula1">
+                    <h2>Painel Aula1</h2>  
+                    <ul>
+                        <li><h3>Exercício1</h3>
+                            <figure>
+                                <img class="imgexer" src="./img/html.png" alt="icone de HTML">
+                            </figure>
+                            <a href="./Aulas/Aula1/Site1/exemplo1.html"></a>
+                        </li>
+                    </ul>                  
+                </section>
+                <section class="painel aula2">
+                    <h2>Painel Aula2</h2>
+                    <ul>
+                        <li><h3>Exercício1</h3>
+                            <figure>
+                                <img class="imgexer" src="./img/html.png" alt="icone de HTML">
+                            </figure>
+                            <a href="./Aulas/Aula2/index.html"></a>
+                        </li>
+                        <li><h3>Exercício2</h3>
+                            <figure>
+                                <img class="imgexer" src="./img/html.png" alt="icone de HTML">
+                            </figure>
+                            <a href="./Aulas/Aula2/index2.html"></a>
+                        </li>
+                    </ul>   
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer class="container">
+        <figure>
+            <img class="imglogo" src="./img/pc.jpg" alt="imagem do logo">
+        </figure>
+
+        <input type="range" id="input-range"  min="0" max="1" step="0.01">
+        <audio src="./audio/numb.mp3" id="audioplayer"></audio>
+        <button id="Play">Play</button>
+
+        <ul class="social">
+            <li><a href="https://www.instagram.com/lucas_g_f_alves/">Instagram</a></li>
+            <li><a href="https://github.com/LucasGFAlves">Github</a></li>
+        </ul>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+#esquerdo{
+    background-color: tomato;
+    float: left;
+    width: 49%;
+    height: 500px;
+}
+
+#esquerdo h1{
+    color: yellow;
+    text-align: center;
+}
+
+#direito{
+    float: right;
+    width: 49%;
+    height: 500px;
+}
+
+#direito img{
+    width: 200px;
+    height: auto;
+}
+
+footer p {
+    text-align: center;
+}
+footer{
+    float:left;
+    height: 100px;
+    width: 100%;
+}
+
+table th,td{
+    border-bottom: 1px solid black;
+}

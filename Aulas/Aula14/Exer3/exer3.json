@@ -1,0 +1,33 @@
+[
+    {
+        "matematica": [
+            "pedro",
+            "roberta",
+            "gilberto"
+        ]
+    },
+    {
+        "portugues": [
+            "joao",
+            "elisabete"
+        ]
+    },
+    {
+        "historia": [
+            "carla",
+            "renata"
+        ]
+    },
+    {
+        "geografia": [
+            "lucas",
+            "maria"
+        ]
+    },
+    {
+        "ciencias": [
+            "marcos",
+            "dulce"
+        ]
+    }
+]

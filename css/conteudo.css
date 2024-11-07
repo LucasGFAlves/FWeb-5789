@@ -1,0 +1,106 @@
+.menu-opcoes ul{
+    font-size: 20px;
+}
+
+.menu-opcoes a{
+    color: #003366;
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative
+}
+
+.menu-opcoes{
+    position: absolute; 
+    top:0px;
+    right:0px;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+#imglogo{
+    width: 10%;
+    height: 10%;
+}
+
+#imglupa{
+    width: 4%;
+    height: auto;
+}
+
+.busca{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.busca,
+.menu-conteudo{
+    background-color: cadetblue;
+    font-weight: bold;/*negrito*/
+    text-transform: uppercase; /*maiúsculo*/
+    width: 30%;
+    margin-right: 10px;
+    float:left;
+}
+
+.busca h2, 
+.busca form, 
+.menu-conteudo h2{
+    margin: 10px;
+}
+
+.menu-conteudo li{
+    background-color: aliceblue;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-conteudo a{
+    color: darkslategray;
+}
+
+.menu-conteudo{
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.busca input{
+    vertical-align: middle;
+}
+
+.destaque{
+    margin-top: 10px;
+}
+
+.busca input[type=search]{
+    width: 170px;
+}
+
+.menu-conteudo li ul{
+    /*display:none vai esconder o elemento*/
+    display: none;
+}
+
+.menu-conteudo li:hover ul{
+    display: block;
+}
+
+.menu-conteudo ul ul li{
+    background-color: #dcdcdc;
+}
+
+
+.menu-conteudo li li a:before{
+    content: '<';
+}
+
+.menu-conteudo li li a:after{
+    content: '>';
+}
